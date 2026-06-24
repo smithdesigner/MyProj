@@ -1,2 +1,9 @@
 target/
 .DS_Store
+
+tests/logs
+
+.intellij
+.venv
+.idea
+.clion
