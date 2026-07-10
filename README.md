@@ -18,3 +18,22 @@ Checklist:
 
 – Where is the entry point to your project? (src/main/Main.java for
 example) **src/main/java/com/se450/project/App.java**
+
+Project: 
+
+- Topic: **CPU Process Scheduler**
+
+- Goal: **To simulate running CPU processes using different scheduling algorithms**
+
+- High-Level Overview: 
+  
+  - **Using the Command-Line Interface (CLI), a user will be able to select from a menu of options (such as Info, Create Process, Choose Scheduling Algorithm, and Metrics) and run CPU processes via various scheduling algorithms (FIFO, Round robin, etc). 
+      Process states will mirror real-life and include the following: Running, Stopped, and Terminated.
+      Metrics (including turnaround time, throughput, completion time, and others) will be generated for output and evaluation.**
+
+- Possible Libraries: 
+
+    - **Java Collections Framework**
+      - **Queue, ArrayList, HashMap**
+    - **Java Logging API**
+    - **JUnit 5**
