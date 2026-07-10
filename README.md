@@ -25,10 +25,10 @@ Project:
 
 - Goal: **To simulate running CPU processes using different scheduling algorithms**
 
-- High-Level Overview: 
+- High-Level Vision for Final Submission: 
   
-  - **Using the Command-Line Interface (CLI), a user will be able to select from a menu of options (such as Info, Create Process, Choose Scheduling Algorithm, and Metrics) and run CPU processes via various scheduling algorithms (FIFO, Round robin, etc). 
-      Process states will mirror real-life and include the following: Running, Stopped, and Terminated.
+  - **Using the Command-Line Interface (CLI), a user will be able to select from a menu of options (such as Info, Create Process, Choose Scheduling Algorithm, and Metrics) to create and run a batch of CPU processes via various scheduling algorithms (FIFO, Round Robin, etc). 
+      Process states will mirror real-life (Running, Stopped, and Terminated), showing which state a given process is currently in.
       Metrics (including turnaround time, throughput, completion time, and others) will be generated for output and evaluation.**
 
 - Possible Libraries: 
