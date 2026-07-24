@@ -29,7 +29,7 @@ Project:
   
   - **Using the Command-Line Interface (CLI), a user will be able to select from a menu of options (such as Info, Create Process, Choose Scheduling Algorithm, and Metrics) to create and run a batch of CPU processes via various scheduling algorithms (FIFO, Round Robin, etc). 
       Process states will mirror real-life (Running, Stopped, and Terminated), showing which state a given process is currently in.
-      Metrics (including turnaround time, throughput, completion time, and others) will be generated for output and evaluation.**
+      Metrics (including turnaround time, throughput, completion time, and others) will be generated for output and evaluation.** 
 
 - Possible Libraries: 
 
@@ -37,3 +37,17 @@ Project:
       - **Queue, ArrayList, HashMap**
     - **Java Logging API**
     - **JUnit 5**
+
+List of Design Patterns:
+
+- State Design Pattern: 
+
+    - **Process.java, IProcessState.java, ReadyState.java, RunningState.java, TerminatedState.java, WaitingState.java**
+
+- Strategy Design Pattern: 
+
+    - **ISchedulingAlgorithm.java, SchedulingAlgorithmContext, FirstComeFirstServeSchedulingAlgo, ShortestJobFirstAlgo**
+
+Additional Comments:
+
+- **Two Scheduling Algorithms (FCFS, SJF) using the State pattern were implemented for this sprint. Future sprints may incorporate additional scheduling algorithms.**
