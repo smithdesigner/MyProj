@@ -50,4 +50,4 @@ List of Design Patterns:
 
 Additional Comments:
 
-- **Two Scheduling Algorithms (FCFS, SJF) using the State pattern were implemented for this sprint. Future sprints may incorporate additional scheduling algorithms.**
+- **Two Scheduling Algorithms (FCFS, SJF) using the Strategy pattern were implemented for this sprint. Future sprints may incorporate additional scheduling algorithms.**
